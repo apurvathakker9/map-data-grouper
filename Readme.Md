@@ -1,6 +1,6 @@
 # Map Data Grouper
 
-### <a href="https://release.d3s32725mk9quz.amplifyapp.com/" target="_blank">Test App Here</a>
+### [Test App Here](https://release.d3s32725mk9quz.amplifyapp.com/){:target="_blank"}
 
 The Map Data Grouper allows you to perform the following actions on the plots displayed on the map:
 
