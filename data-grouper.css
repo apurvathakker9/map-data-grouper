@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+}
+
+body, div, span {
+  font: 400 11px system-ui;
+}
+
+input, select {
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 4px;
+padding-bottom: 4px;
+border: 1px solid grey;
+outline: none;
+outline-width: none;
+box-shadow: none;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+}
+
+.container {
+    width: 90vw;
+    max-width: 90vw;
+    height: 80vh;
+    border: 1px solid lightgrey;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+#map{
+    width: 90vw;
+    height: 80vh;
+}
+#message {
+  position: absolute;
+  left: 50vw;
+  top: 6vw;
+  width: 50vw;
+  height: 25px;
+  margin-top: -32px;
+  margin-left: -25vw;
+  font-weight: bold;
+  text-align: center;
+  line-height: 18px;
+  background-color: #FFFFC7;
+  padding-top: 3px;
+  display: none;
+}
+
+#agent-task {
+  position: absolute;
+  left: 5vw;
+  top: 90px;
+  width: calc(19vw - 8px);
+  height: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: -36px;
+  padding: 4px;
+  text-align: left;
+  line-height: 18px;
+  background-color: #00A000;
+  color: #fff;
+}
+
+#notes {
+  position: absolute;
+  left: 25vw;
+  top: 90px;
+  width: calc(70vw - 8px);
+  height: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: -36px;
+  padding: 4px;
+  text-align: left;
+  line-height: 18px;
+}
+
+.notes-with-data {
+  background-color: #A00000;
+  color: #FFF;
+}
+
+.header{
+    padding: 20px 70px;
+}
+
+.pull-right{
+    float: right;
+}
+
+.pull-left{
+    float: left;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 6px 30px;
+    margin-bottom: 0;
+
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+}
+.btn:focus,
+.btn:active:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+.btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}

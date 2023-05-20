@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="scripts/data-grouper.js"></script>
+    <title>Maps Data Grouper</title>
+    <link rel="stylesheet" href="data-grouper.css">
+</head>
+<body>
+    <div id="signed-in-container">
+        <div class="header">
+            <!-- <select name="city" id="city">
+              <option value="Cupertino, CA">Cupertino, CA</option>
+              <option value="Sunnyvale, CA">Sunnyvale, CA</option>
+              <option value="Mountain View, CA">Mountain View, CA</option>
+              <option value="Redwood City, CA">Redwood City, CA</option>
+              <option value="San Jose, CA">San Jose, CA</option>
+              <option value="Santa Clara, CA">Santa Clara, CA</option>
+              <option value="Nashville, TN">Nashville, TN</option>
+              <option value="Indianapolis, IN">Indianapolis, IN</option>
+                  <option value="Oceanside, CA">Oceanside, CA</option>
+              <option value="Sacramento, CA">Sacramento, CA</option>
+            </select> -->
+            <div class="pull-right">
+                <button class="btn" id="removeFromGroup">Remove From Group</button>
+                <button class="btn" id="btnClear">Clear</button>
+                <button class="btn" id="btnUndo">Undo</button>
+                <button class="btn" id="btnSplit">Split</button>
+                <button class="btn" id="btnCombine">Combine</button>
+            </div>
+            <div class="pull-left" id="task-container" hidden>
+                <button class="btn" id="btnTaskFinish">Finish Task</button>
+            </div>
+        </div>
+        <div id="agent-task" hidden></div>
+        <div id="notes" hidden></div>
+        <div class="container">
+            <div id="map"></div>
+        </div>
+    </div>
+    <div id="message"></div>
+    <div id="addressDialog" style="display: none;" title="Address">
+        <p>Select a way you want to enter the address for the combined points.</p>
+    </div>
+    <div id="manualAddressDialog" style="display: none;" title="Enter Address Manually">
+        <form>
+            <fieldset style="border: 0px;">
+                <label for="manual-address">Address</label>
+                <br/>
+                <input type="text" id="manual-address" style="width: 95%; margin-top: 10px;">
+            </fieldset>
+        </form>
+    </div>
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMozUJfBkZP2sIHDeDe66GPeebZNRR2h0callback=initMap&&libraries=drawing"></script> -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMozUJfBkZP2sIHDeDe66GPeebZNRR2h0&callback=initMap&libraries=drawing">
+    </script>
+</body>
+</html>
