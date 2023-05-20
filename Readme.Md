@@ -8,12 +8,12 @@ The Map Data Grouper allows you to perform the following actions on the plots di
 
 ## Shortcuts
 
-- **p**: Activate Polygon Tool (to draw polygons for grouping)
-- **esc**: Activate Hand Tool (to move the map)
-- **ctrl + z**: Undo action
-- **c**: Combine points (simulates Combine Button)
-- **q**: Map View (Roadmap Mode)
-- **w**: Satellite View
+>**p**: Activate Polygon Tool (to draw polygons for grouping)\
+>**esc**: Activate Hand Tool (to move the map)\
+>**ctrl + z**: Undo action\
+>**c**: Combine points (simulates Combine Button)\
+>**q**: Map View (Roadmap Mode)\
+>**w**: Satellite View
 
 ## How to Use the Tools?
 
@@ -56,13 +56,13 @@ The Map Data Grouper allows you to perform the following actions on the plots di
 
 ### Clear
 
-- When you select a bunch of points by drawing a polygon, you can click Clear to return to the previous state. You can then select additional points to continue grouping.
-- Note that clicking the Clear button will not remove the points that have already been combined.
+1. When you select a bunch of points by drawing a polygon, you can click Clear to return to the previous state. You can then select additional points to continue grouping.
+2. Note that clicking the Clear button will not remove the points that have already been combined.
 
 ![Clear](./assets/readme/clear-1.gif)
 
 ### Undo
 
-- Clicking the Undo button will revert the state of the app to the point before clicking the last Combine, Remove From Group & Split buttons. The app remembers up to 25 levels of undo history.
+1. Clicking the Undo button will revert the state of the app to the point before clicking the last Combine, Remove From Group & Split buttons. The app remembers up to 25 levels of undo history.
 
 ![Undo](./assets/readme/undo-1.gif)
