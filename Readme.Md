@@ -1,5 +1,7 @@
 # Map Data Grouper
 
+### [Test App Here](https://release.d3s32725mk9quz.amplifyapp.com/)
+
 The Map Data Grouper allows you to perform the following actions on the plots displayed on the map:
 
 - Group points and combine them into a centroid.
